@@ -7,14 +7,14 @@ npm i -g lerna
 npm i -g @tira/tira-cli
 ```
 
-2.make a workspace and sub project package directory
+2.make a workspace
 
 ```
 mkdir workspace && cd workspace
 tira init -t workspace
 ```
 
-3.generate some projects
+3. make sub project package directory and generate some projects
 
 ```
 mkdir packages && cd packages
