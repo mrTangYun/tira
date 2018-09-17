@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-graphql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "packages/tira-graphql",
   "main": "dist/index.js",
   "scripts": {
@@ -37,6 +37,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {}
+  }
 }

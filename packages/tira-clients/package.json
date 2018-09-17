@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-clients",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "packages/tira-errors",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "node-fetch": "^2.2.0",
     "redis": "^2.8.0"
   },
-  "devDependencies": {},
   "keywords": [
     "nodejs",
     "node",

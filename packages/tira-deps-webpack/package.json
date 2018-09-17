@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-deps-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "packages/tira-deps-webpac",
   "dependencies": {
     "@babel/core": "^7.0.1",
