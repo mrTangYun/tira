@@ -25,6 +25,11 @@ export function initProject(type: 'workspace' | 'graphql-server' | 'frontend-ser
   const packageNameTag = `PACKAGE_NAME_${type}`;
   packageJson = packageJson.replace(packageNameTag, packageName);
   fs.writeFileSync(packageJsonPath, packageJson, 'utf-8');
+
+  const gitignoreFile = fs.readFileSync(path.resolve(newProjectDir, 'gitignore'), 'utf-8');
+  fs.writeFileSync(path.resolve(newProjectDir, '.gitignore'), gitignoreFile, 'utf-8');
+  fs.unlinkSync(path.resolve(newProjectDir, 'gitignore'));
+
   console.log('init success');
 }
 
@@ -63,6 +68,10 @@ export function updateProject() {
     }
     return true;
   });
+
+  const gitignoreFile = fs.readFileSync(path.resolve(newProjectDir, 'gitignore'), 'utf-8');
+  fs.writeFileSync(path.resolve(newProjectDir, '.gitignore'), gitignoreFile, 'utf-8');
+  fs.unlinkSync(path.resolve(newProjectDir, 'gitignore'));
 
   console.log('update success');
 }
