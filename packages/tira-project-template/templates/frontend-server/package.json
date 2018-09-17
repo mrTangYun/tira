@@ -3,7 +3,7 @@
   "private": true,
   "project-type": "frontend-server",
   "scripts": {
-    "start": "npm run clean && tsc-watch --onFirstSuccess 'npm-run-all -p -n nodemon watch-client'",
+    "start": "npm run clean && tsc-watch --onFirstSuccess \"npm-run-all -p -n nodemon watch-client\"",
     "watch-tsc": "tsc -w",
     "watch-client": "webpack-dev-server --host 0.0.0.0",
     "compile": "tsc",

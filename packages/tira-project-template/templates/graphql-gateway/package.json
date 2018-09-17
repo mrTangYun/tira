@@ -3,7 +3,7 @@
   "private": true,
   "project-type": "graphql-gateway",
   "scripts": {
-    "start": "npm run clean && tsc-watch --onFirstSuccess 'npm run nodemon'",
+    "start": "npm run clean && tsc-watch --onFirstSuccess \"npm run nodemon\"",
     "watch-tsc": "tsc -w",
     "compile": "tsc",
     "lint": "npm run eslint && npm run tslint && npm run prettier",
