@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 import { ApolloLink } from 'apollo-link';
 import { TypeComposer, Resolver } from 'graphql-compose';
 import { ExecutionResult } from 'graphql/execution/execute';
-import { GraphQLInputObjectType } from 'graphql-compose/lib/graphql';
+import { GraphQLInputObjectType } from 'graphql';
 
 export async function getRemoteSchema(uri: string): Promise<GraphQLSchema> {
   try {
