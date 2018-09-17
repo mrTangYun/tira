@@ -48,6 +48,7 @@ npm start
 
 ## Features
 
+```
 1.ES6、Typescript support
 2.graphql support based on apollo
 6.support graphql gateway and make it possible to developing large micro service projects
@@ -55,3 +56,4 @@ npm start
 4.linting with js|jsx|ts|tsx|json|css|less|scss|yaml|yml files and graphql query statement based on prettier/eslint/tslint
 5.multi project support based on lerna
 6.well-designed project template and updating capacity
+```
