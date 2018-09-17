@@ -14,7 +14,7 @@ mkdir workspace && cd workspace
 tira init -t workspace
 ```
 
-3. make sub project package directory and generate some projects
+3.make sub project package directory and generate some projects
 
 ```
 mkdir packages && cd packages
