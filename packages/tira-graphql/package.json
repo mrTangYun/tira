@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-graphql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "packages/tira-graphql",
   "main": "dist/index.js",
   "scripts": {

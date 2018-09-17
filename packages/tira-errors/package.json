@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "packages/tira-errors",
   "main": "dist/index.js",
   "scripts": {
