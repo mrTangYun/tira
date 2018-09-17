@@ -4,7 +4,7 @@
   "description": "packages/tira-graphql",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run compile",
+    "prepare": "npm run clean && npm run compile",
     "clean": "rm -rf dist",
     "compile": "tsc",
     "watch-tsc": "tsc -w",

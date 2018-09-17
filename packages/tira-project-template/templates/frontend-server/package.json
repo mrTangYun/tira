@@ -25,7 +25,7 @@
     "clean-server": "rm -rf dist/server",
     "clean-client": "rm -rf dist/client",
     "clean": "npm run clean-server && npm run clean-client",
-    "prepare": "npm run compile"
+    "prepare": "npm run clean && npm run compile"
   },
   "lint-staged": {
     "linters": {

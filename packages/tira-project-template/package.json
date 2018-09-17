@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "npm run compile",
+    "prepare": "npm run clean && npm run compile",
     "clean": "rm -rf dist",
     "compile": "tsc",
     "watch-tsc": "tsc -w",
