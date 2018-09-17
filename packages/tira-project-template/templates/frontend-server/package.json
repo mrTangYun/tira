@@ -23,8 +23,8 @@
     "build-client-release": "npm run clean-client && cross-env NODE_ENV=production webpack",
     "start-server-debug": "cross-env NODE_ENV=development node dist/server/index.js",
     "start-server-release": "cross-env NODE_ENV=production node dist/server/index.js",
-    "clean-server": "rm -rf dist/server",
-    "clean-client": "rm -rf dist/client",
+    "clean-server": "rimraf dist/server",
+    "clean-client": "rimraf dist/client",
     "clean": "npm run clean-server && npm run clean-client",
     "prepare": "npm run clean && npm run compile"
   },

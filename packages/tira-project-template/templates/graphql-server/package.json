@@ -22,7 +22,7 @@
     "migration-create": "sequelize migration:generate --name migrate",
     "migrate": "sequelize db:migrate",
     "migrate-undo": "node config/generateConfig.js && sequelize db:migrate:undo",
-    "clean": "rm -rf dist/server",
+    "clean": "rimraf dist/server",
     "prepare": "npm run clean && npm run compile"
   },
   "lint-staged": {
