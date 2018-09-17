@@ -37,7 +37,7 @@
     "ignore": []
   },
   "devDependencies": {
-    "@tira/tira-cli": "^1.0.7",
+    "@tira/tira-cli": "^1.0.8",
     "eslint": "^5.5.0",
     "husky": "^0.14.3",
     "lerna": "^3.3.0",
@@ -58,5 +58,5 @@
   ],
   "author": "xbdtb@163.com",
   "license": "MIT",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }
