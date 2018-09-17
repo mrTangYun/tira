@@ -56,8 +56,8 @@ npm start
 
 3.simply convert sequelize models and relations to graphql types
 
-4.linting with js|jsx|ts|tsx|json|css|less|scss|yaml|yml files and graphql query statement based on prettier/eslint/tslint
+4.linting with js/jsx/ts/tsx/json/css/less/scss/|yaml/yml/md files and graphql query statements based on prettier/eslint/tslint
 
 5.multi project support based on lerna
 
-6.well-designed project template and updating capacity
+6.well-designed project generate and updating template
