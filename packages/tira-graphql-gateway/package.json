@@ -1,6 +1,6 @@
 {
   "name": "@tira/tira-graphql-gateway",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "packages/tira-graphql-gateway",
   "main": "dist/index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
-    "@tira/tira-errors": "^1.0.1",
-    "@tira/tira-graphql": "^1.0.3",
+    "@tira/tira-errors": "^1.0.2",
+    "@tira/tira-graphql": "^1.0.4",
     "@types/graphql": "^14.0.0",
     "apollo-server-cache-redis": "^0.1.3",
     "apollo-server-express": "^2.0.7",
