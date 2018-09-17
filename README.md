@@ -3,6 +3,7 @@
 1.install
 
 ```
+npm i -g lerna
 npm i -g @tira/tira-cli
 ```
 
