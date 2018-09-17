@@ -11,11 +11,11 @@ export const config = {
   systemBearerToken: 'TiraSystemBearerToken',
   serverPort: <number>(process.env.SERVER_PORT || 4000),
   graphQLBackendGatewayUrl: process.env.CLUSTER_MODE ? `http://graphql-server/graphql` : 'http://localhost/graphql',
-  redis: {
-    host: getServiceHost('redis', 'localhost'),
-    port: 6379,
-    password: process.env.REDIS_PASSWORD || 'tira',
-  },
+  // redis: {
+  //   host: getServiceHost('redis', 'localhost'),
+  //   port: 6379,
+  //   password: process.env.REDIS_PASSWORD || 'tira',
+  // },
   mysql: {
     host: getServiceHost('mysql', 'localhost'),
     port: 3306,
