@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DEV = (process.env.NODE_ENV || 'development') === 'development';
 const PUBLIC_PATH = process.env.PUBLIC_PATH || '/';
 const SERVER_PORT = DEV ? require('./dist/server/config').config.serverPort : 4000;
-const WEBPACK_DEV_PORT = SERVER_PORT - 1000;
+const WEBPACK_DEV_PORT = SERVER_PORT - 100;
 
 const entryConfig = [
   { name: 'loading', path: './client/loading/index.js' },

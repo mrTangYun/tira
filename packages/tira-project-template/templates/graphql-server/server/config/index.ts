@@ -9,7 +9,7 @@ const getServiceHost = (clusterServiceName: string, defaultValue: string) => {
 export const config = {
   env: process.env.NODE_ENV || 'development',
   systemBearerToken: 'TiraSystemBearerToken',
-  serverPort: <number>(process.env.SERVER_PORT || 4001),
+  serverPort: <number>(process.env.SERVER_PORT || 4000),
   graphQLBackendGatewayUrl: process.env.CLUSTER_MODE ? `http://graphql-server/graphql` : 'http://localhost/graphql',
   redis: {
     host: getServiceHost('redis', 'localhost'),
