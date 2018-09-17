@@ -12,9 +12,9 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
+    "@tira/tira-graphql": "^1.0.0",
     "graphql-relay": "^0.5.5",
-    "graphql-sequelize": "^9.0.1",
-    "@tira/tira-graphql": "^1.0.0"
+    "graphql-sequelize": "^9.0.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.116",

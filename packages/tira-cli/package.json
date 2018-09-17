@@ -16,11 +16,10 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
-    "commander": "^2.18.0",
+    "@tira/tira-graphql": "^1.0.0",
     "@tira/tira-project-template": "^1.0.0",
-    "@tira/tira-graphql": "^1.0.0"
+    "commander": "^2.18.0"
   },
-  "devDependencies": {},
   "keywords": [
     "nodejs",
     "node",

@@ -12,6 +12,7 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
+    "@tira/tira-errors": "^1.0.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "connect-redis": "^3.3.3",
@@ -21,8 +22,7 @@
     "express-session": "^1.15.6",
     "method-override": "^3.0.0",
     "morgan": "^1.9.1",
-    "passport": "^0.4.0",
-    "@tira/tira-errors": "^1.0.0"
+    "passport": "^0.4.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
