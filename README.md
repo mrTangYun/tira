@@ -32,19 +32,20 @@ npm run bootstrap
 ```
 
 this will install all dependencies of all project into the root node_modules of the workspace
-5.watching typescript file of all projects
 
-```
-npm run watch-tsc
-```
-
-6.start the projects in the root directory of each project
+5.start the projects in the root directory of each project
 
 ```
 npm start
 ```
 
-7.now you can start coding the client side with hot reloading and server side source file with auto restarting the node process
+6.now you can start coding the client side with hot reloading and server side source file with auto restarting the node process
+
+7.watching typescript file of all projects and you can run the server side code in debug mode
+
+```
+npm run watch-tsc
+```
 
 ## Features
 
