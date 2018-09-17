@@ -6,9 +6,7 @@
     "@babel/core": "^7.0.1",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0"
-  },
-  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.1.5",
     "babel-loader": "^8.0.2",
     "css-hot-loader": "^1.4.2",
@@ -24,6 +22,7 @@
     "style-loader": "^0.23.0",
     "write-file-webpack-plugin": "^4.4.0"
   },
+  "devDependencies": {},
   "keywords": [
     "nodejs",
     "node",
