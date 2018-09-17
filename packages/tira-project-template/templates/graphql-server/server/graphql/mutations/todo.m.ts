@@ -1,4 +1,4 @@
-import { createTypeComposer, createResolver, createResultMetaFields } from 'tira-graphql';
+import { createTypeComposer, createResolver, createResultMetaFields } from '@tira/tira-graphql';
 import { TodoTC } from '../types/modelTypes';
 
 const createTodo = createResolver({

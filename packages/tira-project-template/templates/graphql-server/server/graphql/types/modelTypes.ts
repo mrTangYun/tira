@@ -1,5 +1,5 @@
 import models from '../../models/sequelize';
-import { convertFromSequelizeModels } from 'tira-graphql-sequelize';
+import { convertFromSequelizeModels } from '@tira/tira-graphql-sequelize';
 
 export const { TodoTC } = convertFromSequelizeModels(models);
 

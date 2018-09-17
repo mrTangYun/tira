@@ -1,6 +1,6 @@
 import * as path from 'path';
 import { config } from '../../config';
-import { loadModels } from 'tira-graphql-sequelize';
+import { loadModels } from '@tira/tira-graphql-sequelize';
 
 export const Sequelize = require('sequelize');
 

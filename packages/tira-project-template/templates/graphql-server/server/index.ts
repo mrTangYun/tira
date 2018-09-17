@@ -1,4 +1,4 @@
-import TiraGraphQLServer from 'tira-graphql-server';
+import TiraGraphQLServer from '@tira/tira-graphql-server';
 import schema from './graphql/schema';
 import { config } from './config';
 

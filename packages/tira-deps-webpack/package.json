@@ -1,5 +1,5 @@
 {
-  "name": "tira-deps-webpack",
+  "name": "@tira/tira-deps-webpack",
   "version": "1.0.0",
   "description": "packages/tira-deps-webpac",
   "dependencies": {},
@@ -36,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-deps-webpack"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

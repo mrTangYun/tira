@@ -1,5 +1,5 @@
 {
-  "name": "tira-cli",
+  "name": "@tira/tira-cli",
   "version": "1.0.0",
   "description": "packages/tira-cli",
   "main": "dist/index.js",
@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "commander": "^2.18.0",
-    "tira-project-template": "^1.0.0",
-    "tira-graphql": "^1.0.0"
+    "@tira/tira-project-template": "^1.0.0",
+    "@tira/tira-graphql": "^1.0.0"
   },
   "devDependencies": {},
   "keywords": [
@@ -34,5 +34,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-cli"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

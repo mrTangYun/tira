@@ -1,5 +1,5 @@
 {
-  "name": "tira-graphql",
+  "name": "@tira/tira-graphql",
   "version": "1.0.0",
   "description": "packages/tira-graphql",
   "main": "dist/index.js",
@@ -30,5 +30,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-graphql"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

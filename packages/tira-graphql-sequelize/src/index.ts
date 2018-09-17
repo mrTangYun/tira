@@ -1,5 +1,5 @@
 import { GraphQLEnumType, GraphQLNonNull, GraphQLString } from 'graphql';
-import { createTypeComposer, GraphQLDate, GraphQLDecimal, TypeComposer } from 'tira-graphql';
+import { createTypeComposer, GraphQLDate, GraphQLDecimal, TypeComposer } from '@tira/tira-graphql';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as _ from 'lodash';

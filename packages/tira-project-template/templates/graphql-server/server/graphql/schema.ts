@@ -1,4 +1,4 @@
-import { GQC, createTypeComposer } from 'tira-graphql';
+import { GQC, createTypeComposer } from '@tira/tira-graphql';
 import { todoMutation } from './mutations/todo.m';
 import { todoQuery } from './queries/todo.q';
 
@@ -37,7 +37,6 @@ const buildMutation = () => {
     },
   });
 };
-
 
 const buildSchema = () => {
   buildQuery();

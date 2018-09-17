@@ -1,4 +1,4 @@
-import { createTypeComposer, createResolver, createCollectionTCResolver } from 'tira-graphql';
+import { createTypeComposer, createResolver, createCollectionTCResolver } from '@tira/tira-graphql';
 import { TodoTC } from '../types/modelTypes';
 
 const getTodo = createResolver({

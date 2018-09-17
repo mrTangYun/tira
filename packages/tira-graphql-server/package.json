@@ -1,5 +1,5 @@
 {
-  "name": "tira-graphql-server",
+  "name": "@tira/tira-graphql-server",
   "version": "1.0.0",
   "description": "packages/tira-graphql-server",
   "main": "dist/index.js",
@@ -23,8 +23,8 @@
     "method-override": "^3.0.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
-    "tira-errors": "^1.0.0",
-    "tira-graphql": "^1.0.0"
+    "@tira/tira-errors": "^1.0.0",
+    "@tira/tira-graphql": "^1.0.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -50,5 +50,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-graphql-server"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

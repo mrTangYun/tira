@@ -1,5 +1,5 @@
 {
-  "name": "tira-graphql-sequelize",
+  "name": "@tira/tira-graphql-sequelize",
   "version": "1.0.0",
   "description": "packages/tira-graphql-sequelize",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   "dependencies": {
     "graphql-relay": "^0.5.5",
     "graphql-sequelize": "^9.0.1",
-    "tira-graphql": "^1.0.0"
+    "@tira/tira-graphql": "^1.0.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.116",
@@ -33,5 +33,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-graphql-sequelize"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

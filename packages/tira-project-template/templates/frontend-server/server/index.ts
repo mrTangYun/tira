@@ -1,4 +1,4 @@
-import TiraFrontEndServer from 'tira-frontend-server';
+import TiraFrontEndServer from '@tira/tira-frontend-server';
 import { config } from './config';
 
 const server = new TiraFrontEndServer({

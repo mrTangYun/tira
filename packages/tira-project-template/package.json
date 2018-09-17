@@ -1,5 +1,5 @@
 {
-  "name": "tira-project-template",
+  "name": "@tira/tira-project-template",
   "version": "1.0.0",
   "description": "packages/tira-project-template",
   "main": "dist/index.js",
@@ -51,5 +51,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-project-template"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

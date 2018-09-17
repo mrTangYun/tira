@@ -1,5 +1,5 @@
 import * as program from 'commander';
-import { initProject, updateProject } from 'tira-project-template';
+import { initProject, updateProject } from '@tira/tira-project-template';
 import { generateFrontendSchema, generateBackendSchema } from './schemaGenerator';
 
 export function cli() {

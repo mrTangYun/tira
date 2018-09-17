@@ -1,5 +1,5 @@
 {
-  "name": "tira-graphql-gateway",
+  "name": "@tira/tira-graphql-gateway",
   "version": "1.0.0",
   "description": "packages/tira-graphql-gateway",
   "main": "dist/index.js",
@@ -23,8 +23,8 @@
     "method-override": "^3.0.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
-    "tira-errors": "^1.0.0",
-    "tira-graphql": "^1.0.0"
+    "@tira/tira-errors": "^1.0.0",
+    "@tira/tira-graphql": "^1.0.0"
   },
   "devDependencies": {
     "@types/graphql": "^14.0.0"
@@ -42,5 +42,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-graphql-gateway"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

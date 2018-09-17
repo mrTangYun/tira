@@ -1,5 +1,5 @@
 {
-  "name": "tira-clients",
+  "name": "@tira/tira-clients",
   "version": "1.0.0",
   "description": "packages/tira-errors",
   "main": "dist/index.js",
@@ -34,5 +34,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-clients"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

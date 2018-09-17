@@ -1,5 +1,5 @@
 {
-  "name": "tira-errors",
+  "name": "@tira/tira-errors",
   "version": "1.0.0",
   "description": "packages/tira-errors",
   "main": "dist/index.js",
@@ -28,5 +28,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xbdtb/tira/tree/master/packages/tira-errors"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

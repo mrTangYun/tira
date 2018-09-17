@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { generateJsonFileByUrl } from 'tira-graphql';
+import { generateJsonFileByUrl } from '@tira/tira-graphql';
 
 const schemaConfig = require(path.resolve(process.cwd(), 'schema.config.js'));
 
