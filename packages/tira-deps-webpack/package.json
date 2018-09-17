@@ -2,11 +2,13 @@
   "name": "@tira/tira-deps-webpack",
   "version": "1.0.0",
   "description": "packages/tira-deps-webpac",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.0.1",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "devDependencies": {
     "autoprefixer": "^9.1.5",
     "babel-loader": "^8.0.2",
     "css-hot-loader": "^1.4.2",

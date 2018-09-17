@@ -12,6 +12,8 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
+    "@types/graphql": "^14.0.0",
+    "@types/node-fetch": "^2.1.2",
     "apollo-link-http": "^1.5.5",
     "decimal.js": "^10.0.1",
     "graphql": "^14.0.2",
@@ -36,8 +38,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
-    "@types/graphql": "^14.0.0",
-    "@types/node-fetch": "^2.1.2"
-  }
+  "devDependencies": {}
 }
