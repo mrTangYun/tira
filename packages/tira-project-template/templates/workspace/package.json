@@ -1,5 +1,5 @@
 {
-  "name": "PACKAGE_NAME",
+  "name": "PACKAGE_NAME_workspace",
   "private": true,
   "project-type": "workspace",
   "scripts": {

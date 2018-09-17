@@ -1,5 +1,5 @@
 {
-  "name": "frontend-server",
+  "name": "PACKAGE_NAME_frontend-server",
   "private": true,
   "scripts": {
     "start": "npm run clean && tsc-watch --onFirstSuccess 'npm-run-all -p -n nodemon watch-client'",

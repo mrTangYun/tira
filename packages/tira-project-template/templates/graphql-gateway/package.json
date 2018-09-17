@@ -1,5 +1,5 @@
 {
-  "name": "graphql-gateway",
+  "name": "PACKAGE_NAME_graphql-gateway",
   "private": true,
   "scripts": {
     "start": "npm run clean && tsc-watch --onFirstSuccess 'npm run nodemon'",

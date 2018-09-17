@@ -22,7 +22,8 @@ export function initProject(type: 'workspace' | 'graphql-server' | 'frontend-ser
   const packageName = <string>newProjectDir.split(path.sep).pop();
   const packageJsonPath = path.resolve(newProjectDir, './package.json');
   let packageJson = fs.readFileSync(packageJsonPath, 'utf-8');
-  packageJson = packageJson.replace('PACKAGE_NAME', packageName);
+  const packageNameTag = `PACKAGE_NAME_${type}`;
+  packageJson = packageJson.replace(packageNameTag, packageName);
   fs.writeFileSync(packageJsonPath, packageJson, 'utf-8');
   console.log('init success');
 }
