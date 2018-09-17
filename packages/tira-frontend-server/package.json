@@ -12,7 +12,7 @@
     "unlink": "npm unlink"
   },
   "dependencies": {
-    "@tira/tira-deps-webpack": "^1.0.2",
+    "@tira/tira-deps-dev": "^1.0.0",
     "@tira/tira-errors": "^1.0.2",
     "@types/body-parser": "^1.17.0",
     "@types/compression": "0.0.36",

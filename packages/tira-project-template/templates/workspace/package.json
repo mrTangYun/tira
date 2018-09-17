@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@tira/tira-cli": "^1.0.12",
+    "@tira/tira-deps-dev": "^1.0.0",
     "eslint": "^5.5.0",
     "husky": "^0.14.3",
     "lerna": "^3.3.0",
