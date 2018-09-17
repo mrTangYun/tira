@@ -6,7 +6,7 @@
 npm i -g @tira/tira-cli
 ```
 
-2.make a workspace
+2.make a workspace and sub project package directory
 
 ```
 mkdir workspace && cd workspace
@@ -16,7 +16,7 @@ tira init -t workspace
 3.generate some projects
 
 ```
-cd packages
+mkdir packages && cd packages
 mkdir frontend && cd frontend
 tira init -t frontend-server
 cd ..
