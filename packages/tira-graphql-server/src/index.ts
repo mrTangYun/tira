@@ -14,6 +14,7 @@ import * as redis from 'connect-redis';
 import { ApolloServer } from 'apollo-server-express';
 import { RedisCache as ApolloRedisCache } from 'apollo-server-cache-redis';
 import { GraphQLSchema } from 'graphql';
+import { InMemoryLRUCache } from 'apollo-server-caching';
 
 const RedisSessionStore = redis(session);
 
@@ -142,7 +143,7 @@ export default class TiraGraphQLServer {
         cacheControl: { defaultMaxAge: 2592000, calculateHttpHeaders: true, stripFormattedExtensions: false },
         engine: false,
         persistedQueries: {
-          cache: new ApolloRedisCache(this.options.redisConfig || {}),
+          cache: this.options.redisConfig ? new ApolloRedisCache(this.options.redisConfig) : new InMemoryLRUCache(),
         },
         introspection: true,
         playground: {
