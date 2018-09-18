@@ -103,7 +103,7 @@ export default class TiraGraphQLGateway {
       next();
     });
 
-    app.use(express.static(path.resolve(process.cwd(), 'dist/client')));
+    app.use(express.static(path.resolve(process.cwd(), 'public')));
 
     app
       .use(cookieParser())
@@ -132,7 +132,7 @@ export default class TiraGraphQLGateway {
           return next();
         }
       }
-      res.sendFile(path.resolve(path.resolve(process.cwd(), 'dist/client/graphql/playground.html')));
+      res.sendFile(path.resolve(path.resolve(process.cwd(), 'public/graphql/playground.html')));
     });
     if (this.options.schema) {
       const apolloServer = new ApolloServer({
@@ -168,7 +168,7 @@ export default class TiraGraphQLGateway {
       next();
     });
 
-    app.use(express.static(path.resolve(process.cwd(), 'dist/client')));
+    app.use(express.static(path.resolve(process.cwd(), 'public')));
 
     return null;
   }
