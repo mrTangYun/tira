@@ -62,4 +62,4 @@ npm run watch-tsc
 
 6.multi project support based on lerna
 
-7.well-designed project generate and updating template
+7.well-designed project generating and updating template
