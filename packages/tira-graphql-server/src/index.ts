@@ -27,7 +27,7 @@ export default class TiraGraphQLServer {
       serverPort?: number;
       controllerPath?: string;
       redisConfig?: { host: string; port: number; password: string };
-      sessonSecret?: string;
+      sessionSecret?: string;
       cookieMaxAge?: number;
       schema?: GraphQLSchema;
     },
@@ -86,7 +86,7 @@ export default class TiraGraphQLServer {
       session({
         cookie: { maxAge: this.options.cookieMaxAge || 60000 * 60 * 24 * 30 },
         store: this.options.redisConfig ? new RedisSessionStore(this.options.redisConfig) : undefined,
-        secret: this.options.sessonSecret || '2018',
+        secret: this.options.sessionSecret || 'tira',
         resave: true,
         rolling: true,
         saveUninitialized: true,
