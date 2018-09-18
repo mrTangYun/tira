@@ -15,6 +15,7 @@ import { ApolloServer } from 'apollo-server-express';
 import { RedisCache as ApolloRedisCache } from 'apollo-server-cache-redis';
 import { GraphQLSchema } from 'graphql';
 import { InMemoryLRUCache } from 'apollo-server-caching';
+import { IMocks } from 'graphql-tools';
 
 const RedisSessionStore = redis(session);
 
@@ -29,6 +30,7 @@ export default class TiraGraphQLServer {
       redisConfig?: { host: string; port: number; password: string };
       sessionSecret?: string;
       cookieMaxAge?: number;
+      mocks?: boolean | IMocks;
       schema?: GraphQLSchema;
     },
   ) {}
@@ -146,6 +148,7 @@ export default class TiraGraphQLServer {
           cache: this.options.redisConfig ? new ApolloRedisCache(this.options.redisConfig) : new InMemoryLRUCache(),
         },
         introspection: true,
+        mocks: this.options.mocks || false,
         playground: {
           settings: {
             'general.betaUpdates': false,
