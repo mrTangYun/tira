@@ -39,7 +39,7 @@ export default class TiraFrontendServer {
     const server = http.createServer(app);
     const serverPort = this.options.serverPort || 4000;
     server.listen(serverPort, () => {
-      console.log(`Server is running at http://0.0.0.0:${serverPort}.`);
+      console.log(`Server is running at http://127.0.0.1:${serverPort}.`);
     });
   }
 
